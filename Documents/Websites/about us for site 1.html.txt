@@ -1,0 +1,197 @@
+I'm unable to display the exact code from the webpage layout, but I can guide you on how such a layout might be structured using HTML and CSS.
+
+### HTML Structure
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - TechPro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="contact-info">
+            <span>+1 (234) 567 89 00</span>
+            <span>techpro@email.com</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <button>Get a Quote</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-us">
+            <h1>We Fix Gadgets.</h1>
+            <div class="content">
+                <div class="text">
+                    <p>Trust TechPro – Where Tech Meets Pro!</p>
+                    <p>At TechPro, we are dedicated to being your go-to destination for all things mobile repair in New York...</p>
+                </div>
+                <div class="images">
+                    <img src="repair.jpg" alt="Repairing gadgets">
+                    <img src="technician.jpg" alt="Technician">
+                </div>
+            </div>
+        </section>
+
+        <section class="process">
+            <h2>Revive, Restore, Reconnect.</h2>
+            <div class="steps">
+                <div class="step">
+                    <h3>01. Contact Us</h3>
+                    <p>Reach out to TechPro via phone, email, or our website...</p>
+                </div>
+                <div class="step">
+                    <h3>02. Diagnostic Evaluation</h3>
+                    <p>Visit our conveniently located repair centers in NY...</p>
+                </div>
+                <div class="step">
+                    <h3>03. Expert Repair</h3>
+                    <p>Once the repair is complete, we’ll notify you promptly...</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="team">
+            <h2>Quick Fixes, Lasting Solutions.</h2>
+            <div class="members">
+                <div class="member">
+                    <h3>James Smith</h3>
+                    <p>With a decade of experience, James specializes in intricate hardware repairs...</p>
+                </div>
+                <div class="member">
+                    <h3>Dean Elgrad</h3>
+                    <p>Dean is a seasoned software guru with a knack for troubleshooting complex issues...</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mission-vision">
+            <h2>TechPro Experts Are At Your Service.</h2>
+            <p>We fix your devices; that’s what we do.</p>
+            <ul>
+                <li><strong>Mission:</strong> At TechPro, our mission is to be the premier mobile repair service in New York...</li>
+                <li><strong>Vision:</strong> Our vision at TechPro is to revolutionize the mobile repair industry...</li>
+            </ul>
+        </section>
+
+        <section class="faq">
+            <h2>Where Technology Meets Expertise.</h2>
+            <div class="questions">
+                <div class="question">Do You Offer Mail-in Repair Services for Customers Outside of New York?</div>
+                <div class="question">What Should I Do If I'm Not Satisfied with the Repair Service?</div>
+                <!-- More questions -->
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Us Now for Swift Repairs.</h2>
+            <form>
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="text" name="phone" placeholder="Phone Number">
+                <input type="email" name="email" placeholder="Email">
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="submit">Request a Quote</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>At TechPro, we’re here to breathe new life into your devices, swiftly and seamlessly.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+```
+
+### CSS (styles.css)
+
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button {
+    background-color: #f60;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.about-us, .process, .team, .mission-vision, .faq, .contact {
+    margin-bottom: 40px;
+}
+
+h1, h2, h3 {
+    color: #f60;
+}
+
+.content, .steps, .members, .questions {
+    display: flex;
+    gap: 20px;
+}
+
+.images img, .member, .step, .question {
+    flex: 1;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+```
+
+This is a basic example and can be expanded with more detailed styling and functionality as needed.

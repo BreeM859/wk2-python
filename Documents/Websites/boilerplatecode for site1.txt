@@ -1,0 +1,137 @@
+I'm unable to provide the exact code from the webpage layout, but I can guide you on how such a layout might be structured using HTML and CSS.
+
+### HTML Structure
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechPro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="contact-info">
+            <a href="tel:+12345678900">+1 (234) 567 89 00</a>
+            <a href="mailto:techpro@email.com">techpro@email.com</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Don't Delay, Repair Today.</h1>
+        <p>Trust TechPro - Where Tech Meets Pro!</p>
+        <a href="#services" class="cta-button">Get a Quote</a>
+    </section>
+
+    <section id="services">
+        <h2>We Make Mobile Repair Stress-free.</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <h3>Poor Battery Life</h3>
+                <p>Repairs from $38</p>
+            </div>
+            <div class="service-item">
+                <h3>Water Damages</h3>
+                <p>Repairs from $47</p>
+            </div>
+            <!-- Add more services as needed -->
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Bringing Life Back to Your Gadgets.</h2>
+        <p>Schedule your repair with TechPro today and experience the ultimate in convenience and expertise.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us Now for Swift Repairs.</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Request a Quote</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 TechPro. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+```
+
+### CSS (styles.css)
+
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #111;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #222;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #333;
+}
+
+.cta-button {
+    background-color: #f60;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#services, #about, #contact {
+    padding: 40px 20px;
+}
+
+.service-list {
+    display: flex;
+    gap: 20px;
+}
+
+.service-item {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+}
+```
+
+This is a basic example to give you an idea of how the layout might be structured. You can expand and customize it further based on your needs.

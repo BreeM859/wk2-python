@@ -19,7 +19,7 @@ This repository contains a Python script demonstrating various list operations. 
    It also prints the final sorted list
 
    Index of 30: 3
-  Final sorted list: [10, 15, 20, 30, 40, 50, 60]
+   [10, 15, 20, 30, 40, 50, 60]
 
 ## Screenshot
 

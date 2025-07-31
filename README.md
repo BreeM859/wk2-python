@@ -9,7 +9,7 @@ This repository contains a Python script demonstrating various list operations. 
 ## Usage
 
 1. Clone the repository:
-   git clone https://github.com/aizocraft/PLP-Week2Python-List.git
+   git clone https://https://github.com/BreeM859/wk2-python.git
    cd PLP-Week2Python-List
 2.Run the code
   python list_operations.py
